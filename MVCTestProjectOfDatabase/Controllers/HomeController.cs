@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MVCTestProjectOfDatabase.Models;
+using PhotoBookDatabase.Model;
 
 namespace MVCTestProjectOfDatabase.Controllers
 {
@@ -12,6 +13,7 @@ namespace MVCTestProjectOfDatabase.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
 
